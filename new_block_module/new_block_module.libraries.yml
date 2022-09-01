@@ -1,0 +1,15 @@
+cuddly-slider:
+  version: 1.x
+  css:
+    theme:
+      css/time.css: {}
+
+      
+  js:
+    js/time.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+

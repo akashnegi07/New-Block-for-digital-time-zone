@@ -1,0 +1,14 @@
+<?php
+
+
+function new_block_module_page_attachments(&$variables) {$variables['#attached']['library'][] = 'new_block_module/cuddly-slider';}
+
+function new_block_module_theme($existing, $type, $theme, $path) {
+
+    return [
+        'my_custom_block' => [
+            'variables' => ['title' => ''],
+        ],
+    ];
+    
+}
